@@ -1,0 +1,16 @@
+/target
+
+# Never commit financial data, statements, keys or local settings
+*.enc
+*.lock
+!Cargo.lock
+*.db
+*.sqlite
+*.ofx
+*.qfx
+*.qbo
+*.csv
+*.xlsx
+*.pdf
+.env
+.env.*
